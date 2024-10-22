@@ -1,3 +1,4 @@
+- [LLM x 书签收藏：摘要 & 全文索引 - Nekonull's Garden](https://nekonull.me/posts/llm_x_bookmark/) 自动生成阅览周报 #个人知识管理
 - [Krasjet/pdf.tocgen](https://github.com/Krasjet/pdf.tocgen) 为PDF增加目录 #tools#github#抽取
 
 # About
