@@ -1,3 +1,4 @@
+- [starslink/EasyNav: 一个现代化的企业内部导航门户系统，用于集中管理和展示公司各类系统和资源的链接。](https://github.com/starslink/EasyNav)
 - [把Github当作数据库，搭建博客 · Issue #54 · zhangyu1818/blog](https://github.com/zhangyu1818/blog/issues/54) #digital-garden
 - [Proofs： The go-to-market for software](https://www.proofs.io/)
 - [Universe 2024 - Attendee Portal](https://reg.githubuniverse.com/flow/github/universe24/attendee-portal/page/portal) #活动
