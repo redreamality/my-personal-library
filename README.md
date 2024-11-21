@@ -1,3 +1,4 @@
+- [我用 AI 辅助编程，效率提升 x 倍](https://mp.weixin.qq.com/s/uYAGZ2cgLkSgTjoWRHWbJg) #dev
 - [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 免费开发资源 #dev
 - [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 免费开发资源 #dev
 - [哥飞-正在赚钱的海外AI产品观察](https://gamma.app/docs/0824-xeuflt7lt3ohpfu?mode=doc) #出海
