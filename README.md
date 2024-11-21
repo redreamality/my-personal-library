@@ -1,3 +1,4 @@
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 免费开发资源 #dev
 - [哥飞-正在赚钱的海外AI产品观察](https://gamma.app/docs/0824-xeuflt7lt3ohpfu?mode=doc) #出海
 - [我跑通了全球收付款的流程](https://mp.weixin.qq.com/s/y_XRFa8pzkgV-GqttSotqw) #出海
 - [目前国内可用Docker镜像源汇总（截至2024年11月）](https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea)
