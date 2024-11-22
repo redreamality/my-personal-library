@@ -1,3 +1,4 @@
+- [How I Use Git Worktrees](https://matklad.github.io/2024/07/25/git-worktrees.html) #dev
 - [我用 AI 辅助编程，效率提升 x 倍](https://mp.weixin.qq.com/s/uYAGZ2cgLkSgTjoWRHWbJg) #dev
 - [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 免费开发资源 #dev
 - [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 免费开发资源 #dev
