@@ -1,3 +1,4 @@
+- [Use Syncthing with WebDAV to Sync Everywhere](/posts/webdav-syncthing/)
 - [WsgiDAV 4.3.4a1 documentation](https://wsgidav.readthedocs.io/en/latest/index.html)
 - [Dollar Street | Family in Jordan | Family 171](https://www.gapminder.org/dollar-street)
 - [ComfyUI-Docker/cu124-cn/README.adoc at main · YanWenKun/ComfyUI-Docker](https://github.com/YanWenKun/ComfyUI-Docker/blob/main/cu124-cn/README.adoc) 适配国内网络环境的 ComfyUI 容器镜像
