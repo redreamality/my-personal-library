@@ -1,3 +1,4 @@
+- [Find public records and leaks - Library of Leaks](https://search.libraryofleaks.org/)
 - [ccbikai/RSS.Beauty](https://github.com/ccbikai/RSS.Beauty)
 - [getpelican/pelican](https://github.com/getpelican/pelican)
 - [程序员如何通过在Medium.com上写技术博客赚钱？](https://shuai.earthonline.us/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%A6%82%E4%BD%95%E5%9C%A8medium-com%E4%B8%8A%E9%80%9A%E8%BF%87%E5%86%99%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2%E8%B5%9A%E9%92%B1-6d47d82b03dd)
