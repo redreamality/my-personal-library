@@ -1,3 +1,4 @@
+- [glanceapp/glance](https://github.com/glanceapp/glance)
 - [Scaling SQLite to 4M QPS on a Single Server (EC2 vs Bare Metal)](https://use.expensify.com/blog/scaling-sqlite-to-4m-qps-on-a-single-server)
 - [Find public records and leaks - Library of Leaks](https://search.libraryofleaks.org/)
 - [ccbikai/RSS.Beauty](https://github.com/ccbikai/RSS.Beauty)
