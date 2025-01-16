@@ -1,3 +1,4 @@
+- [listmonk 邮件订阅系统搭建与 RSS 转换指南 | 2025 年第 1 周草梅周报](https://blog.cmyr.ltd/archives/2025-01-caomei-weekly-email-subscription-rss-conversion-guide.html)
 - [glanceapp/glance](https://github.com/glanceapp/glance)
 - [Scaling SQLite to 4M QPS on a Single Server (EC2 vs Bare Metal)](https://use.expensify.com/blog/scaling-sqlite-to-4m-qps-on-a-single-server)
 - [Find public records and leaks - Library of Leaks](https://search.libraryofleaks.org/)
