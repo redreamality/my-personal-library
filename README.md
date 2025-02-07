@@ -1,3 +1,4 @@
+- [flowith 2.0 - Your AI Creation Workspace, with Knowledge](https://flowith.io/repo-detail/a1556827-02d4-4d74-9a9b-185f3c4b94ec)
 - [About Us - Flowith Team](https://try.flowith.io/)
 - [automatisch/automatisch](https://github.com/automatisch/automatisch) The open source Zapier alternative. Build workflow automation without spending time and money. #workflow
 - [如何用AI生成数字人视频？干货拉满！视频解说/直播带货统统拿捏_AI吧](https://www.ai8.net/tutorial/2024/0701/525.html) #wave2lip
