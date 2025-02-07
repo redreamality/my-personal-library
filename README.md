@@ -1,3 +1,4 @@
+- [langchain-ai/ollama-deep-researcher](https://github.com/langchain-ai/ollama-deep-researcher)
 - [Jumpstarting Your Blockchain Journey: A Python Programmer's Guide to the Decentralized World | Redreamality's Blog](https://redreamality.com/blog/blockchain-for-python-developers/) #web3
 - [30 Free SEO Tools I Use and Recommend (As An SEO)](https://www.laurengalvez.com/blog/free-seo-tools)
 - [flowith 2.0 - Your AI Creation Workspace, with Knowledge](https://flowith.io/repo-detail/a1556827-02d4-4d74-9a9b-185f3c4b94ec)
