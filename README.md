@@ -1,3 +1,4 @@
+- [开源了博客的评论系统](https://jw1.dev/open-sourcing-comment-system/)
 - [monicahq/monica](https://github.com/monicahq/monica) Personal CRM. Remember everything about your friends, family and business relationships.
 - [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo) Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组
 - [oumi-ai/oumi](https://github.com/oumi-ai/oumi) Everything you need to build state-of-the-art foundation models, end-to-end.
