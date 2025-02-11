@@ -1,3 +1,4 @@
+- [oumi-ai/oumi](https://github.com/oumi-ai/oumi) Everything you need to build state-of-the-art foundation models, end-to-end.
 - [chatwoot/chatwoot at master](https://github.com/chatwoot/chatwoot/tree/master) Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
 - [peers/peerjs-server](https://github.com/peers/peerjs-server)
 - [P2P File Transfer](https://chidokun.github.io/p2p-file-transfer/)
