@@ -1,3 +1,4 @@
+- [Those MCP totally 10x my Cursor workflow…](https://www.youtube.com/watch?v=oAoigBWLZgE)
 - [awesome-deepseek-integration/README_cn.md at main · deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md)
 - [InternLM/HuixiangDou: HuixiangDou: Overcoming Group Chat Scenarios with LLM-based Technical Assistance](https://github.com/InternLM/HuixiangDou)
 - [RockChinQ/LangBot](https://github.com/RockChinQ/LangBot)
