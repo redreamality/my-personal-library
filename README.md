@@ -1,3 +1,4 @@
+- [InternLM/HuixiangDou: HuixiangDou: Overcoming Group Chat Scenarios with LLM-based Technical Assistance](https://github.com/InternLM/HuixiangDou)
 - [RockChinQ/LangBot](https://github.com/RockChinQ/LangBot)
 - [zhaoolee/garss](https://github.com/zhaoolee/garss) Github Actions采集RSS, 打造无广告内容优质的头版头条超赞宝藏页
 - [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) #量化
