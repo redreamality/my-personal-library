@@ -1,3 +1,4 @@
+- [RockChinQ/LangBot](https://github.com/RockChinQ/LangBot)
 - [zhaoolee/garss](https://github.com/zhaoolee/garss) Github Actions采集RSS, 打造无广告内容优质的头版头条超赞宝藏页
 - [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) #量化
 - [开源了博客的评论系统](https://jw1.dev/open-sourcing-comment-system/)
