@@ -1,3 +1,4 @@
+- [玩转用户旅程地图 – 人人都是产品经理](https://www.woshipm.com/user-research/5838878.html) #营销
 - [User flow diagramming tool for design teams | Overflow](https://overflow.io/)
 - [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent)
 - [Those MCP totally 10x my Cursor workflow…](https://www.youtube.com/watch?v=oAoigBWLZgE)
