@@ -1,3 +1,4 @@
+- [大盘云图](https://52etf.site/?utm_source=AI%E7%A5%9E%E5%99%A8%E9%9B%86)
 - [RSS Reader](https://rss.lass.cc/)
 - [[2024/07/29日更]B站付费课程合集下载](https://fcp7.com/bilibili-course-free-download.html)
 - [玩转用户旅程地图 – 人人都是产品经理](https://www.woshipm.com/user-research/5838878.html) #营销
