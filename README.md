@@ -1,3 +1,7 @@
+- [X 上的 宝玉：「原文：《Paper: Ironies of Automation》
+作者：Fred Hebert
+
+竟然之前一直没有记录这篇经典又重要的论文：《自动化的反讽》。作者 Lisanne Bainbridge 在论文发表近 40 年后，还专门写了一篇自己对原文的修订，值得一读。这篇文章引用超过 1800」 / X](https://x.com/dotey/status/1897892533616685238)
 - [AboutRSS/ALL-about-RSS: A list of RSS related stuff: tools, services, communities and tutorials, etc.](https://github.com/AboutRSS/ALL-about-RSS) #rss
 - [大盘云图](https://52etf.site/?utm_source=AI%E7%A5%9E%E5%99%A8%E9%9B%86)
 - [RSS Reader](https://rss.lass.cc/)
