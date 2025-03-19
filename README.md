@@ -1,3 +1,6 @@
+- [searxng/searxng](https://github.com/searxng/searxng) SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.
+
+
 - [SearXNG](https://search.rhscz.eu/preferences)
 - [X 上的 宝玉：「原文：《Paper: Ironies of Automation》
 作者：Fred Hebert
