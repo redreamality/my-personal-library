@@ -1,3 +1,4 @@
+- [SearXNG](https://search.rhscz.eu/preferences)
 - [X 上的 宝玉：「原文：《Paper: Ironies of Automation》
 作者：Fred Hebert
 
