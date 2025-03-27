@@ -1,3 +1,4 @@
+- [现代化前端开发 - Slidev](https://modernized-front-end-development.pages.dev/1)
 - [LLM Agents are simply Graph — Tutorial For Dummies](https://zacharyhuang.substack.com/p/llm-agent-internal-as-a-graph-tutorial)
 - [猫啃网，免费商用字体，广州市海锋网络科技有限公司](https://www.maoken.com/)
 - [jarvis2f/telegram-files](https://github.com/jarvis2f/telegram-files)
