@@ -1,3 +1,4 @@
+- [Lo.Fi (Local First) Meetups](https://www.youtube.com/playlist?list=PLTbD2QA-VMnXFsLbuPGz1H-Najv9MD2-H)
 - [Mintlify — The documentation you want, effortlessly](https://mintlify.com/) Meet the next generation of documentation. AI-native, beautiful out-of-the-box, and built for developers.
 - [Slidev-更适合程序员使用的PPT制作工具](https://bitibiti.com/2023/08/11/Slidev-%E6%9B%B4%E9%80%82%E5%90%88%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BD%BF%E7%94%A8%E7%9A%84PPT%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/)
 - [现代化前端开发 - Slidev](https://modernized-front-end-development.pages.dev/1)
