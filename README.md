@@ -1,3 +1,4 @@
+- [#6937. 「ICPC World Finals 2022 | 2023」Bridging the Gap - Problem - LibreOJ](https://loj.ac/p/6937)
 - [Local-First Software](https://localfirstweb.dev/)
 - [Lo.Fi (Local First) Meetups](https://www.youtube.com/playlist?list=PLTbD2QA-VMnXFsLbuPGz1H-Najv9MD2-H)
 - [Mintlify — The documentation you want, effortlessly](https://mintlify.com/) Meet the next generation of documentation. AI-native, beautiful out-of-the-box, and built for developers.
