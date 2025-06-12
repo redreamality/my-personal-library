@@ -1,3 +1,4 @@
+- [高等院校三千所 👨‍🎓²⁰²⁵ 助力考生选大学](https://laosheng.top/fuwu/yuanxiao.html)
 - [caol64/wenyan-mcp](https://github.com/caol64/wenyan-mcp)
 - [文颜 - Markdown 一键排版至公众号、知乎、头条](https://yuzhi.tech/docs/wenyan)
 - [#6937. 「ICPC World Finals 2022 | 2023」Bridging the Gap - Problem - LibreOJ](https://loj.ac/p/6937)
