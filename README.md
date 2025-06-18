@@ -1,3 +1,4 @@
+- [PRM Trainer](https://huggingface.co/docs/trl/main/en/prm_trainer)
 - [为什么花钱的 Al Agent 还不好用? 我用一个乘法公式，筛掉了80%的玩具](https://mp.weixin.qq.com/s/UeJJxndml_LZLaVY66xsEg)
 - [高等院校三千所 👨‍🎓²⁰²⁵ 助力考生选大学](https://laosheng.top/fuwu/yuanxiao.html)
 - [caol64/wenyan-mcp](https://github.com/caol64/wenyan-mcp)
