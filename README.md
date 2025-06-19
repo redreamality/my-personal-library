@@ -1,3 +1,4 @@
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser & Trae AI (And other Open Sourced) System Prompts, Tools & AI Models. #dev
 - [PRM Trainer](https://huggingface.co/docs/trl/main/en/prm_trainer)
 - [为什么花钱的 Al Agent 还不好用? 我用一个乘法公式，筛掉了80%的玩具](https://mp.weixin.qq.com/s/UeJJxndml_LZLaVY66xsEg)
 - [高等院校三千所 👨‍🎓²⁰²⁵ 助力考生选大学](https://laosheng.top/fuwu/yuanxiao.html)
