@@ -1,3 +1,4 @@
+- [一次构建多处部署 - Next.js Runtime Env | 静かな森](https://innei.in)
 - [ZeroEval](https://zeroeval.com/)
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser & Trae AI (And other Open Sourced) System Prompts, Tools & AI Models. #dev
 - [PRM Trainer](https://huggingface.co/docs/trl/main/en/prm_trainer)
