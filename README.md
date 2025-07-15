@@ -1,3 +1,4 @@
+- [The Complete Collection of Quotes by Tony, the God of Trading in the Cryptocurrency Circle - Preface - 区块链web3](https://go_web3.xlog.app/bi-quan-jiao-yi-zhi-shen-Tony-yu-lu-quan-ji-xu-yan-pian?locale=en)
 - [xLog - Write. Own. Earn.](https://xlog.app)
 - [一次构建多处部署 - Next.js Runtime Env | 静かな森](https://innei.in)
 - [How I Got my Next.js PWA on the Google Play Store](https://znap.in//pwa-guide)
