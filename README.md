@@ -1,3 +1,4 @@
+- [public-apis/public-apis](https://github.com/public-apis/public-apis)
 - [Set Proxy in Terminal (Bash, CMD, PowerShell, etc.)](https://gist.github.com/m3y54m/b3d97b9067b2b4eb447a5d1182a326ae)
 - [The Complete Collection of Quotes by Tony, the God of Trading in the Cryptocurrency Circle - Preface - 区块链web3](https://go_web3.xlog.app/bi-quan-jiao-yi-zhi-shen-Tony-yu-lu-quan-ji-xu-yan-pian?locale=en)
 - [xLog - Write. Own. Earn.](https://xlog.app)
