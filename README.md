@@ -1,3 +1,4 @@
+- [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) 一份为首席技术官（CTO）精选的、带有主观意见的资源列表，特别侧重于初创企业
 - [出海推广资源库](https://aimaker.dev) 一个全面的出海推广资源库，专注于帮助中国创业者和产品开发者进行海外推广。我们整合了全球范围内的推广平台、目录网站和社区资源，让您的产品能够更轻松地触达国际市场。
 - [sst/opencode](https://github.com/sst/opencode) AI coding agent, built for the terminal.
 - [topcss/docker-pull-tar](https://github.com/topcss/docker-pull-tar) 一个 Docker 镜像拉取工具，可以直接从 Docker Hub 或其他 Docker 仓库下载镜像，并将其打包为标准的 .tar 文件，无需安装 Docker 环境。
