@@ -1,3 +1,4 @@
+- [TAG](https://tagss11.pro/#/auth/) 家宽-永久官网【tagxx.vip】保存防丢
 - [Evidence Based Scheduling](https://www.joelonsoftware.com/2007/10/26/evidence-based-scheduling/) 基于证据的排程”核心思想是：使用历史数据（证据）来生成一个关于项目完成日期的概率分布图，而不是一个单一的、不切实际的截止日期。
 - [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) 一份为首席技术官（CTO）精选的、带有主观意见的资源列表，特别侧重于初创企业
 - [出海推广资源库](https://aimaker.dev) 一个全面的出海推广资源库，专注于帮助中国创业者和产品开发者进行海外推广。我们整合了全球范围内的推广平台、目录网站和社区资源，让您的产品能够更轻松地触达国际市场。
