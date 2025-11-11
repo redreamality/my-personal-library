@@ -1,3 +1,4 @@
+- [liujuntao123/smart-excalidraw-next](https://github.com/liujuntao123/smart-excalidraw-next)
 - [四象限投资体系 - 赚确定性的钱](https://www.insightpearl.com/four-square-invest-strategy/)
 - [TAG](https://tagss11.pro/#/auth/) 家宽-永久官网【tagxx.vip】保存防丢
 - [Evidence Based Scheduling](https://www.joelonsoftware.com/2007/10/26/evidence-based-scheduling/) 基于证据的排程”核心思想是：使用历史数据（证据）来生成一个关于项目完成日期的概率分布图，而不是一个单一的、不切实际的截止日期。
