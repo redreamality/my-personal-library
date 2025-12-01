@@ -1,3 +1,4 @@
+- [Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md)
 - [MaxQuant - Agentic Market Opportunity Discovery](https://maxquant.ai/home)
 - [zorazrw/agent-workflow-memory: AWM: Agent Workflow Memory](https://github.com/zorazrw/agent-workflow-memory)
 - [Conare](https://conare.ai/) Stop copy-pasting context. Conare lets you upload and manage your context, so your AI never forgets. Built for Claude Code.
