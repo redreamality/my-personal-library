@@ -1,3 +1,4 @@
+- [linkedlist771/DeMark-World](https://github.com/linkedlist771/DeMark-World)
 - [Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md)
 - [MaxQuant - Agentic Market Opportunity Discovery](https://maxquant.ai/home)
 - [zorazrw/agent-workflow-memory: AWM: Agent Workflow Memory](https://github.com/zorazrw/agent-workflow-memory)
