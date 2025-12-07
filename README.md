@@ -1,3 +1,4 @@
+- [Bohrium | AI for Science with Global Scientists](https://www.bohrium.com/notebooks?notebookTab=recommendations)
 - [linkedlist771/DeMark-World](https://github.com/linkedlist771/DeMark-World)
 - [Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md)
 - [MaxQuant - Agentic Market Opportunity Discovery](https://maxquant.ai/home)
