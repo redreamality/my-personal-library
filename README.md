@@ -1,3 +1,4 @@
+- [OpenCode 中文教程 - 内容创作](https://learnopencode.com/4-scenarios/writer-workflow.html)
 - [alphaXiv](https://alphaxiv.org/)
 - [pxsol/doc/zh/markdown at master · mohanson/pxsol](https://github.com/mohanson/pxsol/tree/master/doc/zh/markdown) Solana开发
 - [Solana/在主网发行您的代币/上架去中心化交易所 - ACCU.CC](http://accu.cc/content/solana/project_raydium/)
