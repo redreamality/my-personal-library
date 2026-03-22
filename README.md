@@ -1,3 +1,4 @@
+- [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli?tab=readme-ov-file)
 - [OpenCode 中文教程 - 内容创作](https://learnopencode.com/4-scenarios/writer-workflow.html)
 - [alphaXiv](https://alphaxiv.org/)
 - [pxsol/doc/zh/markdown at master · mohanson/pxsol](https://github.com/mohanson/pxsol/tree/master/doc/zh/markdown) Solana开发
