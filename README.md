@@ -1,3 +1,4 @@
+- [BuilderPulse/zh/2026/2026-04-13.md at main · BuilderPulse/BuilderPulse](https://github.com/BuilderPulse/BuilderPulse/tree/main)
 - [Impeccable: Design skills for AI harnesses](https://impeccable.style)
 - [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli?tab=readme-ov-file)
 - [OpenCode 中文教程 - 内容创作](https://learnopencode.com/4-scenarios/writer-workflow.html)
