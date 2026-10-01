@@ -63,6 +63,40 @@ or erase the earlier runner-side failures.
 
 Wayback and website availability remain external dependencies.
 
+## Final deployment checks
+
+For `4055d6b69fd1c307708a85cbb494084be4e74e47`,
+[Linux CI](https://github.com/redreamality/my-personal-library/actions/runs/36885901303)
+passed all 40 tests.
+[The next batch](https://github.com/redreamality/my-personal-library/actions/runs/36885901465)
+and [bounded retry batch](https://github.com/redreamality/my-personal-library/actions/runs/36885935447)
+completed with private checkpoint pushes. The original six Qwen failures
+recovered by reusing their saved extractions.
+
+A four-item retry
+([run](https://github.com/redreamality/my-personal-library/actions/runs/36887281798))
+correctly failed its sync step when all four remaining items failed, but still
+generated the digest and pushed the failure checkpoints. This deliberately
+tests the failure path; it is not a successful extraction run.
+
+One final one-item attempt, within the default three-attempt cap,
+[succeeded](https://github.com/redreamality/my-personal-library/actions/runs/36887651078).
+The private archive reached `c65bf0469995cd63774dc45f3164a7496b715b74`:
+
+- 26 successfully archived and summarized bookmarks.
+- Three source-access failures: HTTP 402, HTTP 403, and a transport failure.
+- 85 unseen historical bookmarks left for the deployed hourly batches.
+- No remaining Qwen failure among the attempted entries. This is a snapshot,
+  not a promise that the external service will never fail again.
+
+The three-language project introduction was deployed in the blog repository at
+`b75c29448f11aca64338afb98597368dc5c402f0`.
+[GitHub Pages deployment](https://github.com/redreamality/redreamality.github.io/actions/runs/36886963041)
+succeeded. Local build, 170 unit tests, 19 focused browser tests, and all 181
+site-wide browser tests passed. Mobile screenshots at 320 and 390 pixels were
+inspected. Production EN, ZH and JA project URLs each returned HTTP 200 with
+exactly one H1. Both implementation areas passed independent read-only review.
+
 ## Command incidents
 
 - The archive bootstrap push timed out once and succeeded on a bounded retry.
@@ -78,6 +112,16 @@ Wayback and website availability remain external dependencies.
   attributes; only generated digest formatting was corrected.
 - Optional directory probes used nonexistent guessed paths during investigation.
   Subsequent probes check existence or discover paths from the repository root.
+- A new mobile test used an ambiguous `main` locator against the site's existing
+  nested main elements. It was scoped to `body > main`; the same overflow
+  assertions and screenshots then passed in all three locales.
+- The bounded all-failed retry returned exit 1 by design. Logs and state retain
+  safe error codes, while the separate persistence step still succeeded. Do not
+  treat that red run as data loss or conceal it with an unconditional success.
+- A later private-archive Git fetch also failed at the HTTPS connection stage.
+  Exact Git objects can be read through GitHub's authenticated API and verified
+  by object hash before a normal local fast-forward; never bypass TLS or
+  overwrite a dirty checkout to work around this network condition.
 
 No project incident-recording utility existed at task start. No one-off failure
 was appended to persistent agent instructions.
