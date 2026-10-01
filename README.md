@@ -1,3 +1,6 @@
+- [(1) X 上的 lauren：「here's how i shipped 2,500 PRs last month to production
+
+this was originally supposed to be for Cursor Compile in London. i couldn't make it since i was livestreaming for Grok @Bot Galaxy so i'm making it available for free here on X! watch it on 2x speed, i talk slowly https://t.co/NgrGz7tmPM」 / X](https://x.com/poteto/status/2102050467505430555)
 - [Bend](https://bend-lang.com/) a fast language that blocks AI mistakes via proof
 - [BuilderPulse/zh/2026/2026-04-13.md at main · BuilderPulse/BuilderPulse](https://github.com/BuilderPulse/BuilderPulse/tree/main)
 - [Impeccable: Design skills for AI harnesses](https://impeccable.style)
