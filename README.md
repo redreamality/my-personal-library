@@ -1,3 +1,4 @@
+- [Bend](https://bend-lang.com/) a fast language that blocks AI mistakes via proof
 - [BuilderPulse/zh/2026/2026-04-13.md at main · BuilderPulse/BuilderPulse](https://github.com/BuilderPulse/BuilderPulse/tree/main)
 - [Impeccable: Design skills for AI harnesses](https://impeccable.style)
 - [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli?tab=readme-ov-file)
