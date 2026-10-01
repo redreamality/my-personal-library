@@ -1,0 +1,29 @@
+name: Test bookmark pipeline
+
+on:
+  push:
+    paths:
+      - 'personal_library/**'
+      - 'tests/**'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - '.github/workflows/**'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.12.17'
+          python-version: '3.12'
+      - run: uv sync --locked
+      - run: uv run python -m unittest discover -s tests -v

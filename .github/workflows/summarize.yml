@@ -1,0 +1,120 @@
+name: Archive bookmarks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'personal_library/**'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - '.github/workflows/summarize.yml'
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum bookmarks to process (1-100)
+        default: '12'
+        required: true
+      retry_failed:
+        description: Retry previously failed bookmarks
+        type: boolean
+        default: false
+      wayback:
+        description: Also request public Wayback snapshots (best effort)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: personal-library-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: source
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.12.17'
+          python-version: '3.12'
+      - name: Install locked dependencies and test
+        working-directory: source
+        run: |
+          uv sync --locked
+          uv run python -m unittest discover -s tests -v
+      - name: Validate batch size
+        env:
+          BATCH_LIMIT: ${{ inputs.limit || '12' }}
+        shell: bash
+        run: |
+          if [[ ! "$BATCH_LIMIT" =~ ^([1-9]|[1-9][0-9]|100)$ ]]; then
+            echo "::error::Batch limit must be an integer between 1 and 100"
+            exit 1
+          fi
+      - uses: actions/checkout@v4
+        with:
+          repository: redreamality/my-personal-library-archive
+          ref: main
+          path: archive
+          ssh-key: ${{ secrets.ARCHIVE_DEPLOY_KEY }}
+          persist-credentials: false
+      - name: Extract and summarize
+        id: sync
+        timeout-minutes: 80
+        working-directory: source
+        env:
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          BATCH_LIMIT: ${{ inputs.limit || '12' }}
+          RETRY_FAILED: ${{ inputs.retry_failed || 'false' }}
+          WAYBACK: ${{ inputs.wayback || 'false' }}
+        shell: bash
+        run: |
+          args=(--source README.md --output ../archive --limit "$BATCH_LIMIT")
+          if [[ "$RETRY_FAILED" == "true" ]]; then args+=(--retry-failed); fi
+          if [[ "$WAYBACK" == "true" ]]; then args+=(--wayback); fi
+          # End processing before the job deadline so checkpoints can be pushed.
+          timeout --signal=TERM --kill-after=30s 75m uv run python -m personal_library sync "${args[@]}"
+      - name: Generate weekly digest
+        if: ${{ !cancelled() && steps.sync.outcome != 'skipped' }}
+        working-directory: source
+        run: uv run python -m personal_library weekly --output ../archive --write
+      - name: Persist checkpoints, including partial failures
+        if: ${{ !cancelled() && steps.sync.outcome != 'skipped' }}
+        working-directory: archive
+        env:
+          ARCHIVE_DEPLOY_KEY: ${{ secrets.ARCHIVE_DEPLOY_KEY }}
+        shell: bash
+        run: |
+          key_dir="$(mktemp -d)"
+          trap 'rm -f "$key_dir/key" "$key_dir/known_hosts"; rmdir "$key_dir"' EXIT
+          chmod 700 "$key_dir"
+          printf '%s\n' "$ARCHIVE_DEPLOY_KEY" > "$key_dir/key"
+          chmod 600 "$key_dir/key"
+          unset ARCHIVE_DEPLOY_KEY
+          # GitHub's Ed25519 host key, verified against api.github.com/meta.
+          printf '%s\n' 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' > "$key_dir/known_hosts"
+          export GIT_SSH_COMMAND="ssh -i $key_dir/key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$key_dir/known_hosts"
+          git config user.name 'personal-library[bot]'
+          git config user.email 'personal-library[bot]@users.noreply.github.com'
+          # Only this checkout contains private output. Never stage the source tree.
+          for path in README.md data.json search.sqlite3 weekly; do
+            if [[ -e "$path" ]]; then git add -- "$path"; fi
+          done
+          for path in [0-9][0-9][0-9][0-9][0-9][0-9]; do
+            if [[ -d "$path" ]]; then git add -- "$path"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "Archive unchanged"
+          else
+            git commit -m "Update bookmark archive ($GITHUB_RUN_ID)" --quiet
+            git push origin HEAD:main --quiet
+          fi

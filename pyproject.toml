@@ -1,0 +1,20 @@
+[project]
+name = "personal-library"
+version = "0.1.0"
+description = "Private, resumable bookmark archive and search pipeline"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.28,<0.29",
+  "markdown-it-py>=3,<5",
+  "trafilatura>=2,<3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+personal-library = "personal_library.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["personal_library"]
