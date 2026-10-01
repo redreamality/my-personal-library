@@ -43,13 +43,34 @@ weekly output, failures, and replay. They do not prove that every publisher is
 accessible or that generated summaries are factually perfect.
 
 The successful real local run proves one live extraction/summary/archive path.
-Remote Actions verification is recorded separately after the deployed workflow
-has completed. Wayback and website availability remain external dependencies.
+Remote verification for commit `b813df0d97c11f3d403917962ce2c0cc04a16b1b`:
+
+- [Linux tests](https://github.com/redreamality/my-personal-library/actions/runs/36884832788):
+  all 39 tests passed, including actual POSIX SIGTERM delivery and lock release.
+- [Initial archive workflow](https://github.com/redreamality/my-personal-library/actions/runs/36884832807):
+  all steps completed, including weekly generation and authenticated private
+  archive push. Of 12 attempts, six succeeded and six retained explicit Qwen
+  failures; 101 unseen bookmarks remained after the batch.
+- The private archive advanced to
+  `896833449833161c3e38d9ca974174d1a907ac20`. Its seven successful entries include
+  the earlier local reference-article smoke test.
+
+The initial Qwen error codes did not contain HTTP status codes. A follow-up
+adds numeric stage/status diagnostics without response bodies or automatic
+retries, so subsequent operator-triggered retries can distinguish provider
+errors. Three local health probes then returned HTTP 200; that does not explain
+or erase the earlier runner-side failures.
+
+Wayback and website availability remain external dependencies.
 
 ## Command incidents
 
-- GitHub HTTPS push timed out once; one bounded retry succeeded without changing
-  credentials or repository history.
+- The archive bootstrap push timed out once and succeeded on a bounded retry.
+  Source pushes later repeatedly timed out or reset while GitHub's API remained
+  reachable. Git Data API transferred the exact tested tree and commit
+  (hash equality checked), performed a non-forced ref update, and verified the
+  remote SHA. Credentials, repository visibility, and commit history were not
+  changed to work around the transport failure.
 - SQLite atomic replacement failed on Windows because its connection was still
   open; fixed with explicit closure and tests.
 - A raw-snapshot whitespace check failed because the publisher's extracted text

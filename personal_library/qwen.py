@@ -82,10 +82,10 @@ class Qwen:
             ) as client:
                 health = client.get(ENDPOINT + "/health")
                 if health.status_code != 200:
-                    raise PipelineError("qwen_health_failed")
+                    raise PipelineError(f"qwen_health_http_{health.status_code}")
                 response = client.post(ENDPOINT + "/v1/chat/completions", json=payload)
                 if response.status_code != 200:
-                    raise PipelineError("qwen_chat_failed")
+                    raise PipelineError(f"qwen_chat_http_{response.status_code}")
                 data = response.json()
                 choices = data["choices"]
                 if len(choices) != 1 or choices[0]["finish_reason"] != "stop":

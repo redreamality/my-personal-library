@@ -334,9 +334,34 @@ class QwenTests(unittest.TestCase):
         def handler(request):
             calls.append(request)
             return httpx.Response(302, headers={"Location": "https://evil.example/"})
-        with self.assertRaisesRegex(PipelineError, "qwen_health_failed"):
+        with self.assertRaisesRegex(PipelineError, "qwen_health_http_302"):
             Qwen(transport=httpx.MockTransport(handler)).summarize("title", TEXT)
         self.assertEqual(len(calls), 1)
+
+    @patch.dict(os.environ, {"QWEN_API_KEY": "test-secret-key"})
+    def test_http_error_codes_include_only_stage_and_status_without_retry(self):
+        for stage in ("health", "chat"):
+            for status in (302, 400, 401, 403, 429, 500, 502, 503, 504):
+                with self.subTest(stage=stage, status=status):
+                    calls = []
+                    def handler(request):
+                        calls.append(request.url.path)
+                        if stage == "chat" and request.url.path == "/health":
+                            return httpx.Response(200)
+                        return httpx.Response(
+                            status, text="UPSTREAM_BODY test-secret-key",
+                            headers={"Location": "https://untrusted.example/test-secret-key"},
+                        )
+                    with self.assertRaises(PipelineError) as caught:
+                        Qwen(transport=httpx.MockTransport(handler)).summarize("Article", TEXT)
+                    self.assertEqual(caught.exception.code, f"qwen_{stage}_http_{status}")
+                    self.assertEqual(str(caught.exception), f"qwen_{stage}_http_{status}")
+                    self.assertNotIn("UPSTREAM_BODY", str(caught.exception))
+                    self.assertNotIn("test-secret-key", str(caught.exception))
+                    expected = ["/health"]
+                    if stage == "chat":
+                        expected.append("/v1/chat/completions")
+                    self.assertEqual(calls, expected)
 
     @patch.dict(os.environ, {"QWEN_API_KEY": "test-secret-key"})
     def test_invalid_completions_and_safe_errors(self):

@@ -165,6 +165,14 @@ Both `/health` and `/v1/chat/completions` use only
 Both endpoints forbid redirects. No automatic API retry or fallback endpoint
 is used. A health request precedes each summary call.
 
+Non-200 responses persist only the stage and numeric HTTP status:
+`qwen_health_http_503`, `qwen_chat_http_400`, or
+`qwen_chat_http_429`, for example. Response bodies, headers, and credentials
+are never included. Transport failures remain `qwen_transport_failed`.
+Existing historical `qwen_health_failed` / `qwen_chat_failed` records are
+unchanged; an explicitly bounded `--retry-failed` attempt can record the
+current status, but cannot recover the status of an earlier response.
+
 The system prompt treats title and scraped document as untrusted data.
 The JSON response must contain `sentence` and 3-8 structured `bullets`, each
 with a `heading` and 1-4 `details`. The client validates structure and string
