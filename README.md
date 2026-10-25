@@ -1,3 +1,4 @@
+- [汪叔聊编曲 · 编曲教材与课程](https://wangshubianqu.com/homework)
 - [(1) X 上的 lauren：「here's how i shipped 2,500 PRs last month to production
 
 this was originally supposed to be for Cursor Compile in London. i couldn't make it since i was livestreaming for Grok @Bot Galaxy so i'm making it available for free here on X! watch it on 2x speed, i talk slowly https://t.co/NgrGz7tmPM」 / X](https://x.com/poteto/status/2102050467505430555)
