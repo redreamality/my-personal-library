@@ -1,3 +1,4 @@
+- [Every Joule: a 3D physics book about energy](https://iamtechartist.com/every-joule/)
 - [汪叔聊编曲 · 编曲教材与课程](https://wangshubianqu.com/theory)
 - [汪叔聊编曲 · 编曲教材与课程](https://wangshubianqu.com/homework)
 - [(1) X 上的 lauren：「here's how i shipped 2,500 PRs last month to production
