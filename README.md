@@ -1,3 +1,4 @@
+- [AgriciDaniel/jev-seo](https://github.com/AgriciDaniel/jev-seo)
 - [诊断 · 中小学·高中知识图谱](https://math.pansgo.com/diagnose/?target=cnm_221&demo=1)
 - [Every Joule: a 3D physics book about energy](https://iamtechartist.com/every-joule/)
 - [汪叔聊编曲 · 编曲教材与课程](https://wangshubianqu.com/theory)
