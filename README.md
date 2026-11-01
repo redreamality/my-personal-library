@@ -1,3 +1,4 @@
+- [Discover community-made UI components | 21st](https://21st.dev/community/components)
 - [AgriciDaniel/jev-seo](https://github.com/AgriciDaniel/jev-seo)
 - [诊断 · 中小学·高中知识图谱](https://math.pansgo.com/diagnose/?target=cnm_221&demo=1)
 - [Every Joule: a 3D physics book about energy](https://iamtechartist.com/every-joule/)
